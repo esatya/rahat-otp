@@ -1,0 +1,42 @@
+{
+  "name": "rahat-otp",
+  "version": "1.0.0",
+  "description": "Rahat OTP Service",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node .",
+    "production": "ENV_TYPE=production node .",
+    "setup": "yarn install"
+  },
+  "author": {
+    "email": "team@esatya.io",
+    "name": "eSatya Team"
+  },
+  "maintainers": [
+    {
+      "email": "team@esatya.io",
+      "name": "eSatya Team"
+    }
+  ],
+  "license": "TBD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esatya/rahat-otp.git"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "config": "^3.3.2",
+    "ethers": "^5.0.14"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^24.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
+    "merge": "^1.2.1",
+    "prettier": "^2.1.1"
+  }
+}
