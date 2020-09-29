@@ -22,7 +22,7 @@ Step 2: Create a file named 'local.json' in the the config folder and add these 
     "sms": {
       "service": "rumsan",
       "params": {
-        "url": "https://office.rumsan.net/api/v1/misc/sms"
+        "url": "-{URL of your sms service. Add username and password in params if needed}"
       }
     }
   }
