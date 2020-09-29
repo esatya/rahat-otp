@@ -6,8 +6,8 @@ A standalone service to send OTP to beneficiary. This service listens to the blo
 
 You can write your own plugins for SMS service.
 
-**Steps to run this service**
-Step 1: Create a folder named 'config' in the root folder.
+**Steps to run this service**  
+Step 1: Create a folder named 'config' in the root folder.  
 Step 2: Create a file named 'local.json' in the the config folder and add these configuration with your own values
 
 ```
