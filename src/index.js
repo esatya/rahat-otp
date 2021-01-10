@@ -8,6 +8,12 @@ const privateKey = config.get('private_key');
 
 const provider = new ethers.providers.WebSocketProvider(websocketProvider);
 const wallet = new ethers.Wallet(privateKey, provider);
+let test;
+try {
+  test = config.get('otp.test');
+} catch (e) {
+  test = false;
+}
 
 const OTPManager = {
   /**
@@ -45,14 +51,16 @@ const OTPManager = {
   async listen() {
     const contract = await this.getContract();
     contract.on('Claimed', async (vendor, phone, amount) => {
+      let otp;
       try {
-        const otp = Math.floor(1000 + Math.random() * 9000);
-        const data = await this.setHashToChain(contract, vendor, phone.toString(), otp.toString());
-
+        otp = Math.floor(1000 + Math.random() * 9000);
+        if (test) {
+          otp = config.get('otp.otp');
+        }
+        await this.setHashToChain(contract, vendor, phone.toString(), otp.toString());
         const message = `A vendor is requesting ${amount} token from your account. If you agree, please provide this OTP to vendor: ${otp}`;
         // eslint-disable-next-line global-require
         const sms = require(`./plugins/sms/${config.get('plugins.sms.service')}`);
-
         // call SMS function from plugins to send SMS to beneficiary
         sms(phone.toString(), message);
       } catch (e) {
