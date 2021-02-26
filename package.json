@@ -4,7 +4,7 @@
   "description": "Rahat OTP Service",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node .",
+    "start": "nodemon .",
     "production": "ENV_TYPE=production node .",
     "setup": "yarn install"
   },
