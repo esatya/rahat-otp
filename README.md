@@ -36,3 +36,11 @@ Step 3:
 Step 4:
 
     yarn start
+   
+# Coding Styles
+This repository uses eslint to enforce air-bnb coding styles.
+
+# Contributing
+Everyone is very welcome to contribute on the codebase of Rahat. Please reach us in Gitter in case of any query/feedback/suggestion.
+
+For more information on the contributing procedure, see [Contribution](https://github.com/esatya/rahat-documentation/blob/main/CONTRIBUTING.md).
