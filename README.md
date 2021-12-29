@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://github.com/esatya/rahat-otp/blob/master/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+  </a>
+  <a href="https://github.com/esatya/rahat-otp/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-LGPL_v3-blue.svg" alt="License" />
+  </a>
+</p>
+
 # Rahat OTP Service
 
 _This service is part of [Rahat Project](https://github.com/esatya/rahat). Please make sure you have setup Rahat service first._
@@ -36,11 +45,8 @@ Step 3:
 Step 4:
 
     yarn start
-   
-# Coding Styles
-This repository uses eslint to enforce air-bnb coding styles.
 
 # Contributing
-Everyone is very welcome to contribute on the codebase of Rahat. Please reach us in Gitter in case of any query/feedback/suggestion.
+Everyone is very welcome to contribute on the codebase of Rahat. Please reach us in [Gitter](https://gitter.im/bockies/community?utm_source=badge&utm_medium=badge&utm_content=badge) in case of any query/feedback/suggestion.
 
-For more information on the contributing procedure, see [Contribution](https://github.com/esatya/rahat-documentation/blob/main/CONTRIBUTING.md).
+For more information on the contributing procedure, see [Contribution](https://github.com/esatya/rahat-otp/blob/master/CONTRIBUTING.md).
