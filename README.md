@@ -47,6 +47,6 @@ Step 4:
     yarn start
 
 # Contributing
-Everyone is very welcome to contribute on the codebase of Rahat. Please reach us in [Gitter](https://gitter.im/bockies/community?utm_source=badge&utm_medium=badge&utm_content=badge) in case of any query/feedback/suggestion.
+Everyone is very welcome to contribute on the codebase of Rahat. Please reach us in [Discord](https://discord.gg/Xe59EVBs5N), **DEVELOPMENT Channel> #contribute** in case of any query/feedback/suggestion.
 
-For more information on the contributing procedure, see [Contribution](https://github.com/esatya/rahat-otp/blob/master/CONTRIBUTING.md).
+For more information on the contributing procedure, see [Contribution](https://docs.rahat.io/docs/next/Contribution-Guidelines).
