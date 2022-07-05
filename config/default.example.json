@@ -1,0 +1,28 @@
+{
+    "rahat_server": "http://rahat_server:3601",
+    "private_key": "0x30d2f4f1321d53710304ae250766744a96c17f95da00e53dc56c8a7fe253b523",
+    "msg": "राहत लिनको लागि यो OTP कोद पसलेलाई दिनुहोला। OTP: ${otp}",
+    "blockchain": {
+      "httpProvider": "https://testnetwork.esatya.io",
+      "webSocketProvider": "ws://195.179.200.228:8558"
+    },
+    "otp": {
+      "test": true,
+      "otp": "9670"
+    },
+    "plugins": {
+      "sms": {
+        "service": "sparrowSms",
+        "params": {}
+      }
+    },
+    "services": {
+      "sparrow_sms": {
+        "url": "http://api.sparrowsms.com/v2/sms",
+        "token": "<enter your api key here>",
+        "from": "InfoSMS",
+        "active": false
+      }
+    }
+  }
+  

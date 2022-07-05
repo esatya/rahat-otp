@@ -1,8 +1,11 @@
 #Rumsan
 play/
 sandbox/
-config/
+config/**
 temp/
+
+#allow sample config
+!config/default.example.json
 
 # Logs
 logs
