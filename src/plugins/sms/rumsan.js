@@ -8,7 +8,7 @@ module.exports = async (phone, message) => {
     const data = {
       app: 'rahat',
       phone,
-      message,
+      message
     };
 
     const res = await axios.post(url, data);

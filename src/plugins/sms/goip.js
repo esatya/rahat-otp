@@ -7,7 +7,7 @@ module.exports = async (phone, message) => {
   try {
     const data = {
       phone,
-      message,
+      message
     };
 
     console.log('SMS via GOIP not implemented');

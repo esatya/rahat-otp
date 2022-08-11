@@ -2,7 +2,7 @@
   "name": "rahat-otp",
   "version": "1.0.0",
   "description": "Rahat OTP Service",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "scripts": {
     "start": "nodemon .",
     "production": "ENV_TYPE=production node .",
@@ -24,9 +24,13 @@
     "url": "https://github.com/esatya/rahat-otp.git"
   },
   "dependencies": {
+    "@rumsan/core": "^1.0.5",
     "axios": "^0.20.0",
     "config": "^3.3.2",
-    "ethers": "^5.0.14"
+    "ethers": "^5.0.14",
+    "nodemailer": "^6.7.7",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.11"
   },
   "devDependencies": {
     "eslint": "^7.7.0",

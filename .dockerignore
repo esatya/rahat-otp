@@ -5,3 +5,4 @@ docker-compose.dev.yml
 Dockerfile
 Dockerfile.dev
 npm-debug.log
+config
