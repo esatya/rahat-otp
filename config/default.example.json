@@ -1,0 +1,25 @@
+{
+  "rahat_server": "http://localhost:3601",
+  "private_key": "[server_private_key]",
+  "msg": "${otp}: यो राहत कोड दिनुहोला। (काटिने रकम: ${amount})",
+  "adminEmail": "[admin_email]",
+  "db": "./config/rahat-otp.db",
+  "testMode": false,
+  "backupOtp": {
+    "enabled": true,
+    "code": 9670,
+    "validDuration": 85000
+  },
+  "enabled": false,
+  "sms_service": "prabhu",
+  "services": {
+    "prabhu": {
+      "url": "https://smsml.creationsoftnepal.com/SendBulkV1",
+      "token": "[token]"
+    }
+  },
+  "blockchain": {
+    "httpProvider": "http://localhost:8545",
+    "webSocketProvider": "ws://localhost:8545"
+  }
+}
